@@ -1,0 +1,19 @@
+Test,Optimization,Regularization,C,Accuracy
+1,steepest_ascent,L1,0.1,12.3
+2,stochastic_gradient_ascent,L1,0.1,12.3
+3,newtons_method,L1,0.1,24.1
+4,steepest_ascent,L2,0.1,12.3
+5,stochastic_gradient_ascent,L2,0.1,12.3
+6,newtons_method,L2,0.1,28.58
+7,steepest_ascent,L1 L2,0.1,12.3
+8,stochastic_gradient_ascent,L1 L2,0.1,12.3
+9,newtons_method,L1 L2,0.1,28.59
+10,steepest_ascent,L1,0.01,12.3
+11,stochastic_gradient_ascent,L1,0.01,12.3
+12,newtons_method,L1,0.01,28.54
+13,steepest_ascent,L2,0.01,12.3
+14,stochastic_gradient_ascent,L2,0.01,12.3
+15,newtons_method,L2,0.01,28.57
+16,steepest_ascent,L1 L2,0.01,12.3
+17,stochastic_gradient_ascent,L1 L2,0.01,12.3
+18,newtons_method,L1 L2,0.01,28.57
